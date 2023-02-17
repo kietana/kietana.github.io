@@ -62,13 +62,13 @@
 }
 
 .about .col {
-    /* border:1px solid red; */
+    border:1px solid red;
     text-align: center;
-    padding: 50px 0;
+    padding: 70px 0;
 }
 
 .about .col-6{
-    /* border:1px solid green; */
+    border:1px solid green;
     padding: 60px 0;
     margin-right: 17px;
 }
@@ -83,6 +83,10 @@
 
 #member {
     font-size: 10px;
+}
+
+.about .logo-text {
+    padding: 150px 0;
 }
 
 
