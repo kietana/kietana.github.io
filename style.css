@@ -1,12 +1,15 @@
-/* Navbar */
-.navbar-brand, .nav-item {
+* {
     font-family: 'Noto Serif TC', serif;
-    font-size: 32px;
 }
 
-.nav-link {
-    text-transform: uppercase;
-    margin-right: 30px;
+/* Navbar */
+.navbar-brand {
+    font-size: 40px;
+}
+
+.nav-item {
+    text-align: center;
+    font-size: 28px;
 }
 
 /* Jumbotron */
@@ -41,37 +44,51 @@
     margin-top: 120px;
 }
 
-.story img {
-    margin-left: -100px;
-}
-
 .story p {
     font-size: 18px;
     color: #acacac;
     text-align: center;
 }
 
-.story .lean-right {
-    margin-left: 150px;
+/* About */
+
+.about {
+    animation: fadeIn 2s;
 }
 
-/* Utility */
-
-.btn-primary {
-    border-radius: 40px;
-    border: none;
-    color: #000;
-    background-color: #fff;
+.about .col {
+    /* border:1px solid red; */
+    text-align: center;
+    /* animation: wavey 1s infinite; */
+    padding: 50px 0;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-    color: #000;
-    background-color: burlywood;
+.about .col-6{
+    /* border:1px solid green; */
+    padding: 50px 0;
+    margin-right: 30px;
 }
 
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes wavey {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+}
 
 /* Desktop Version */
 @media (min-width: 992px) {
+
+    .nav-link {
+        margin-right: 35px;
+    }
 
     .nav-link:hover::after {
         content: '';
@@ -87,10 +104,5 @@
     .jumbotron {
         background-position: 0 -400px;
         /* margin-top: -75px; */
-    }
-
-    /* Story */
-    .story h3, .story p {
-        text-align: left;
     }
 }
