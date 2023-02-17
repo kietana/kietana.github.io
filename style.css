@@ -57,6 +57,10 @@
     animation: fadeIn 2s;
 }
 
+.about h1 {
+    font-weight: bold;
+}
+
 .about .col {
     /* border:1px solid red; */
     text-align: center;
