@@ -77,6 +77,10 @@
     animation: wavey 3s;
 }
 
+#member {
+    font-size: 10px;
+}
+
 
 @keyframes fadeIn {
     0% {opacity: 0;}
