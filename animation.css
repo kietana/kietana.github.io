@@ -1,0 +1,21 @@
+.wavey-infinite {
+    animation: wavey 3s infinite;
+}
+
+.wavey {
+    animation: wavey 3s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes wavey {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+}
