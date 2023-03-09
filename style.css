@@ -9,7 +9,7 @@
 /* Navbar */
 
 .navbar {
-    background-image: linear-gradient(to bottom, #0f1c14, black);
+    background-image: url(images/lantern.jpg);
     animation: fadeIn 2s;
 }
 
