@@ -1,0 +1,9 @@
+/* Desktop Version */
+@media (min-width: 992px) {
+
+    /* Character */
+
+    .container .character {
+        margin-top: 100px;
+    }
+}
