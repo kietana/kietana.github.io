@@ -24,16 +24,11 @@
 
 /* Utility */
 
-.btn-primary {
-    border-radius: 40px;
-    border: none;
-    color: #000;
-    background-color: #fff;
-}
-
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-    color: #000;
-    background-color: burlywood;
+.btn-custom {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 7px;
+    border-radius: 10px;
 }
 
 /* Desktop Version */
@@ -52,4 +47,13 @@
         padding-bottom: 5px;
         margin-bottom: -8px;
     }
+
+    /* Utility */
+
+    .btn-custom {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 13px;
+    }
+
 }
