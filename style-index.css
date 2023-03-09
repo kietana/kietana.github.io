@@ -52,8 +52,14 @@ body {
     font-weight: bold;
 }
 
-.container h1{
-    margin-top: 200px;
+.after-jumbo .red, .after-jumbo .mask {
+    margin-left: 50px;
+    max-height: 300px;
+}
+
+.after-jumbo .general {
+    margin-left: 60px;
+    max-height: 300px;
 }
 
 /* Desktop Version */
@@ -66,7 +72,12 @@ body {
     }
 
     /* After Jumbotron */
-    .after-jumbo .row .red { /* Modify each picture*/
-       height: 200px;
+
+    .after-jumbo .general, .after-jumbo .red, .after-jumbo .mask {
+        margin-left: 0;
+    }
+
+    .container h1{
+        margin-top: 200px;
     }
 }
