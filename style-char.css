@@ -1,3 +1,11 @@
+/* Navbar */
+.navbar {
+    background-image: url(images/header-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fadeIn 2s;
+}
+
 /* Desktop Version */
 @media (min-width: 992px) {
 

@@ -1,4 +1,13 @@
 @import url(animation.css);
+
+/* Navbar */
+.navbar {
+    background-image: url(images/comic/comic-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fadeIn 2s;
+}
+
 /* About */
 
 .about {

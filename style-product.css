@@ -1,0 +1,7 @@
+/* Navbar */
+.navbar {
+    background-image: url(images/header-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fadeIn 2s;
+}
