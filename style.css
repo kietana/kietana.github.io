@@ -13,10 +13,6 @@
     animation: fadeIn 2s;
 }
 
-.navbar-brand {
-    font-size: 60px;
-}
-
 .navbar .nav-item {
     text-align: center;
     font-size: 30px;
